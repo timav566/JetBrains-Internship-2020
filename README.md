@@ -1,31 +1,27 @@
-# JetBrains-Internship-2021
-Tasks for JetBrains Internship 2021
-New Interactive Integrated Biological Analyzation Service
+# Tasks for JetBrains Internship 2021 New Interactive Integrated Biological Analysis Service
 
-Задание
-В качестве тестового задания Вам предлагается провести небольшой анализ тестовых данных. Современные биологические методы позволяют измерить количество различных белков в плазме крови, обычно они представляются в виде таблицы с показателями у каждого донора каждого из доступных белков.
+Assignment As a test assignment, you are asked to perform a short analysis of test data. Modern biological methods allow you to measure the amounts of various proteins in blood plasma, usually presented in the form of a table with the values of each donor for each of the available proteins.
 
-Взять данные таблицы из файла
+Take table data from file
 
-Определить 5 показателей, которые сильнее всего изменяются в процессе старения
+Identify the 5 indicators that change the most during the aging process
 
-Разделить возрастной диапазон на несколько диапазонов и выполнить статистическую проверку равенства средних значений между выборками диапазонов (можно использовать стандартный t-test)
+Divide the age range into several ranges and perform a statistical test for equality of mean values between samples of the ranges (a standard t-test can be used)
 
-Используя python визуализировать в виде графиков полученные показатели относительно возраста, отобразить p-value полученные на предыдущем этапе
+Using python visualize the obtained values in the form of graphs, display the p-values obtained in the previous step
 
-В качестве решения должен быть предоставлен Jupyter notebook, содержащий код на языке программирования Python для решения поставленной задачи, который можно запустить с помощью команды Cell | Run All. Можно пользоваться всеми публично доступными библиотеками для анализа и визуализации данных.
+A Jupyter notebook containing code in Python programming language to solve the problem, which can be run using the Cell | Run All command, should be provided as a solution. All publicly available libraries for data analysis and visualization can be used.
 
-Проверка решений
-Все решения будут проходить следующие этапы проверки:
+Validation of Solutions All solutions will go through the following validation steps:
 
-В первой ячейке ноутбука должен настраиваться путь к файлу с данными
+The path to the data file must be set in the first cell of the notebook
 
-Код должен выполняться без ошибок от начала до конца
+The code must run without errors from start to finish
 
-Графики должны наглядно показывать изменения показателя с возрастом и между возрастными группами
+Graphs should clearly show changes in the index with age and between age groups
 
-Код-ревью и окончательный отбор
+Code review and final selection
 
-Как пройти код-ревью?
+How to do a code review?
 
-Позаботьтесь о чистоте кода. Перед отправкой решения свежим взглядом окинуть свой код и убедиться, что в коде используются понятные названия, нет неиспользуемого/закомментированного кода, дубликатов.
+Take care of the cleanliness of the code. Before submitting your solution, take a fresh look at your code and make sure the code uses clear names, no unused/commented code, no duplicates.
